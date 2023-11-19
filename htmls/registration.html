@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character set and viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Page title -->
+  <title>Registration Form</title>
+  
+  <!-- Stylesheet link -->
+  <link rel="stylesheet" href="../css/styles.css">
+  
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  
+  <!-- Custom JavaScript file -->
+  <script src="../scripts/input.js"></script>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <div class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="registration.html" class="active">Registration</a>
+    <a href="application.html">Application</a>
+    <a href="about.html">About</a>
+  </div>
+
+  <!-- Main content container -->
+  <div class="container">
+    <!-- Heading for the registration form -->
+    <h1>Registration Form</h1>
+
+    <!-- Container for displaying alerts -->
+    <div id="alerts-container"></div>
+
+    <!-- Registration form -->
+    <form id="data-form">
+      <!-- Full Name input -->
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName">
+
+      <!-- Email input -->
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+
+      <!-- Phone Number input -->
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber">
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    &copy; <span id="currentYear"></span> Enriko Hyka, Serxhio Elezi, Klajdi Gazidedja, Lauren Islami
+  </footer>
+</body>
+</html>
